@@ -183,7 +183,7 @@ export default {
     }
     .sign_up {
       margin-top: -10px;
-      height: 33.5em;
+      height: 35.5em;
     }
 
   }

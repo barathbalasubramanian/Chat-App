@@ -146,7 +146,7 @@ export default {
     }
     .sign_in {
       margin-top: -10px;
-      height: 33.5em;
+      height: 35.5em;
     }
 
   }
