@@ -44,6 +44,7 @@ export default {
     }
   },
   methods: {
+    //!preg_match('/^[0-9a-zA-Z\xe0-\xef\x80-\xbf._-]+$/i'
     signup() {
       let fields = document.querySelectorAll('.field')
       let reqdiv = ['req0','req1','req2','req3']
