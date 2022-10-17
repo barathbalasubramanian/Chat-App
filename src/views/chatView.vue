@@ -141,10 +141,9 @@ export default {
         flex-direction: column;
         background-color: #0066FF;
         position: fixed;
-        bottom: 2%;
+        bottom: 0;
         padding: 10px;
         text-align: center;
-        /* margin-right: 8px; */
         width: -webkit-fill-available;
         margin: 0 15em 0 0 ;
     }
@@ -197,10 +196,9 @@ export default {
     .container {
         margin: 0;
     }
-        
+
     .allmessage {
-        max-height: 23.5em;
-        min-height: 23.5em; 
+        min-height: 26.5em; 
         margin-top: -11px;
     }
     .user .unknown {
