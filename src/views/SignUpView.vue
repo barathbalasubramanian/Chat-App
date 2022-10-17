@@ -179,7 +179,6 @@ export default {
     border-left:1px solid #0066FF ;
     border-right:1px solid #0066FF ;
   }
-
   .reqfield {
     color:red;
     height: 10%;
