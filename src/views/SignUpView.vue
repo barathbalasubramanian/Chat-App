@@ -111,7 +111,7 @@ export default {
     width: auto;
     height: fit-content;
     background-color: #002233;
-    height: 34em;
+    height:35.25em
   }
   .card {
     font-size: 3em;

@@ -146,7 +146,7 @@ export default {
         text-align: center;
         /* margin-right: 8px; */
         width: -webkit-fill-available;
-        margin: 0 15.5em 0 0 ;
+        margin: 0 15em 0 0 ;
     }
 
     form {
@@ -201,6 +201,7 @@ export default {
     .allmessage {
         max-height: 23.5em;
         min-height: 23.5em; 
+        margin-top: -11px;
     }
     .user .unknown {
         max-width: 7em;
@@ -211,7 +212,7 @@ export default {
         margin-top: -10px;
     }    
     .message-bar {
-        margin: 0 .5em 0 0;
+        margin: 0;
     }
     input {
         width: 22em;
