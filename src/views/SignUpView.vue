@@ -4,7 +4,7 @@
     <div class="card">SIGN UP</div>
     <form @submit.prevent='signup()' autocomplete="off">
       <div class="input" >
-        <input class="field" type="text" v-model="form.name" pattern="[a-zA-Z]{3,}" min="3" required><br>
+        <input class="field" type="text" v-model="form.name" pattern="[a-zA-Z\s]*{3,}" min="3" required><br>
         <label class="label">USERNAME</label>
         <div class="req0"></div>
       </div>
@@ -169,6 +169,7 @@ export default {
     border-left:1px solid #0066FF ;
     border-right:1px solid #0066FF ;
   }
+
   .reqfield {
     color:red;
     height: 10%;
