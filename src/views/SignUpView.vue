@@ -97,7 +97,7 @@ export default {
 
 <style scoped>
   .free {
-    background-image: url(file:///C:/Users/user/Downloads/bg3.svg);
+    background: url('@/assets/bg3.svg');
     height: 125px;
   }
   .sign_up {

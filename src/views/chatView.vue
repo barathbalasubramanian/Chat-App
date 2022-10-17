@@ -122,7 +122,7 @@ export default {
         align-items: center;
         justify-content: center;
         padding: 2em 0 0.5em 0;
-        background-image: url(file:///C:/Users/user/Downloads/wave-haikei.svg);
+        background-image: url('@/assets/bg1.svg');
     }
     .allmessage {
         max-height: 24.5em;
@@ -175,7 +175,7 @@ export default {
 }
     .freee {
         height: 100px;
-        background-image: url(file:///C:/Users/user/Downloads/bg4.svg);
+        background-image: url('@/assets/bg4.svg');
         margin-top: -10px;
     }    
     
@@ -207,7 +207,7 @@ export default {
     }
     .freee {
         height: 50px;
-        background-image: url(file:///C:/Users/user/Downloads/img5.svg);
+        background-image: url('@/assets/bg2.svg');
         margin-top: -10px;
     }    
     .message-bar {
