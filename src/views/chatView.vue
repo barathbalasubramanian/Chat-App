@@ -213,6 +213,7 @@ export default {
     }    
     .message-bar {
         margin: 0;
+        padding: 0 0 .5em 0;
     }
     input {
         width: 22em;
