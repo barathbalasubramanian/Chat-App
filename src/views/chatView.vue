@@ -198,7 +198,7 @@ export default {
     }
 
     .allmessage {
-        min-height: 26.5em; 
+        min-height: 27.5em; 
         margin-top: -11px;
     }
     .user .unknown {
