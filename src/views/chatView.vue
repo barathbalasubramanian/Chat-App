@@ -48,12 +48,13 @@ export default {
 
     methods: {
         async send(){
+            if (document.querySelector('.input').value != '') {
             const data = await insert_message( { ...this.form } )
                 this.form['name'] = ''
                 this.form['message'] = ''
                 this.chatbox()
                 this.getuser()
-        },
+        }},
 
         async chatbox() 
         {
@@ -126,7 +127,7 @@ export default {
     }
     .allmessage {
         max-height: 24.5em;
-        min-height: 24.5em;
+        min-height: 25.5em;
         padding: 30px;
         display: flex;
         flex-direction: column;
@@ -198,6 +199,7 @@ export default {
     }
 
     .allmessage {
+        max-height: 28.5em;
         min-height: 28.5em; 
         margin-top: -11px;
     }
