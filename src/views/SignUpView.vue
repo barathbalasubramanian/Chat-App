@@ -25,7 +25,7 @@
       </div>
       <div class="btn">
         <button type="submit">Signup</button>
-        <router-link to='/signin'><button type="submit">Sign in</button></router-link>
+        <router-link to='/signin'><button type="submit" class="button">Sign in</button></router-link>
       </div>
     </form>
   </div>
@@ -144,6 +144,15 @@ export default {
     font-size: 1.3em;
     text-decoration: none;
     background-color: #0066FF;
+  }
+  .button {
+    background-color: #002233;
+    color:#0066FF;
+  }
+  .button:hover {
+    background-color: #0066FF;
+    color: #002233;
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53)s;
   }
   .input {
     display: flex;
