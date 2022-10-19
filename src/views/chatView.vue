@@ -98,7 +98,6 @@ export default {
         width: -moz-max-content;
         max-width: 20em;
         font-size: 14px;
-        overflow: auto;
         width: fit-content;
         word-wrap:break-word;
     }
@@ -106,7 +105,6 @@ export default {
         padding: 2px 16px 6px 16px;
         border-radius: 10px 0 20px 10px;
         width: -moz-max-content;
-        overflow: auto;
         max-width: 7em;
         float: right;
         background-color: #0066FF;
