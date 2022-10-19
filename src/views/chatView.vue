@@ -9,7 +9,7 @@
         <div class="allmessage">
             <div class="message" v-for="(data,index) in this.messages" :key="index">
                 <div :class="data.name == this.currentUser ? 'user' : 'unknown'">{{data.message}}
-                    <span>{{data.email}}</span>
+                    
                 </div>
             </div>
         </div>
@@ -100,6 +100,7 @@ export default {
         font-size: 14px;
         overflow: auto;
         width: fit-content;
+        word-wrap:break-word;
     }
     .allmessage .user {
         padding: 2px 16px 6px 16px;
